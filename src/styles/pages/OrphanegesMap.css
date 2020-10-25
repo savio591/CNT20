@@ -51,17 +51,20 @@
     z-index: 10;
     right: 40px;
     bottom: 40px;
-    width: 64px;
-    height: 64px;
     position: absolute;
-    border-radius: 20px;
+    width: 173.45px;
+    height: 53.98px;
     background: #003770;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: background-color 0.5s;
-
 }
+#page-map .create-orphanege a {
+    color: white;
+}
+
 #page-map .create-orphanege:hover {
     background: #3774B4;
 
@@ -91,6 +94,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 #page-map .map-popup .leaflet-popup-tip-container{
     display: none;

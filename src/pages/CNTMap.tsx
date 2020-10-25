@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FiPlus, FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 //import Leaflet, { popup } from 'leaflet';
 
@@ -68,7 +68,7 @@ function OrphanegeMap() {
                 })}
             </Map>
             <Link to="/orphanages/create" className="create-orphanege">
-                <FiPlus size={32} color="fff" />
+            <p>Iniciar</p>
             </Link>
         </div>
     );
