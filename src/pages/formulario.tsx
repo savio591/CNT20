@@ -115,7 +115,7 @@ export default function CreateOrphanage() {
                             onclick={handleMapClick}
                         >
                             <TileLayer
-                                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+                                url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9taW5nb3NuZXR0byIsImEiOiJja2diZHB3dnYwMHV0MzBvNjFjY3kwaGZrIn0.tU9BM_b0RXP0peB_fyhGLQ`}
                             />
 
                             {position.latitude !== 0 && (

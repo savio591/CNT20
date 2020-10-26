@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-
 import '../styles/pages/formularioForm.css';
 import imgg from '../images/cnt-white.png';
 import i_1_1 from '../images/form/1_1.svg';
@@ -330,6 +329,7 @@ export default function CreateOrphanage() {
                         </div>
                     </div>
                 </div>
+            <h2 className="info_saved">Todas as informações estão salvas automaticamente!</h2>
             </main>
         </div >
     );

@@ -93,7 +93,19 @@ line-height: 26px;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
+
+.info_saved {
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: bold;
+align-items: center;
+text-align: center;
+margin: 32px;
+color: #AEFFAC;}
+
+
 .hidder {
     display: none !important;
 }
@@ -171,4 +183,22 @@ line-height: 26px;
 .six {
     right: -25px;
     bottom: -25px;
+}
+
+@media only screen and (max-width: 600px) {
+    #page-formulario header img {
+        width: 50%;
+        height: auto;
+    }
+
+    .header_textos {
+        position: relative;
+        right: -10px;
+    }
+    #page-formulario header  {
+display: flex;
+align-content: center;
+justify-content: center;
+    }
+
 }

@@ -11,7 +11,7 @@ import mapMarkerImg from '../../src/images/cnt-white.png';
 import '../styles/pages/nctHedear.css';
 import mapIcon from '../utils/mapIcons';
 import api from '../services/api';
-//import { tileLayer } from 'leaflet';
+//mport { tileLayer } from 'leaflet';
 
 interface Orphanage {
     id: number;
@@ -46,7 +46,7 @@ function OrphanegeMap() {
                 zoom={16}
                 style={{ width: '100%', height: '100%' }}
             >
-                <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+                <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9taW5nb3NuZXR0byIsImEiOiJja2diZHB3dnYwMHV0MzBvNjFjY3kwaGZrIn0.tU9BM_b0RXP0peB_fyhGLQ`}
                 />
                 {/* satellite-v9 ou dark vc pode estilizar na HP */}
 
