@@ -1,20 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
 #page-create-orphanage {
   display: flex;
+  background: #002852;
+  flex-direction: column;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#page-create-orphanage header {
+    height: 95px;
+    background: #003771;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+.header_textos {
+    display: flex;
+    position: absolute;
+    right: 51px;
+}
+
+.header_textos h3 {
+    padding: 12px;
+    color: white;
+    display: -webkit-inline-box;
+    transition: .2s;
+}
+
+.header_textos h3:hover {
+    color: #bbbbbb;
 }
 
 #page-create-orphanage main {
   flex: 1;
 }
 
+.titulos{
+    color:#FFFFFF;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.titulos h1 {
+
+font-size: 21px;
+line-height: 26px;
+}
+
+.titulos h2 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
 form.create-orphanage-form {
-  width: 700px;
-  margin: 64px auto;
-
-  background: #9FAFBF;
-  border: 1px solid #D3E2E5;
-  border-radius: 20px;
-
-  padding: 64px 80px;
+  margin: 0 auto;
+  padding: 16px 80px;
 
   overflow: hidden;
 }
@@ -38,7 +88,7 @@ form.create-orphanage-form fieldset legend {
 
   font-size: 32px;
   line-height: 34px;
-  color: #5C8599;
+  color: #ffffff;
   font-weight: 700;
 
   border-bottom: 1px solid #D3E2E5;
@@ -147,20 +197,23 @@ form.create-orphanage-form .input-block .button-select button:last-child {
 }
 
 form.create-orphanage-form button.confirm-button {
-  margin-top: 64px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    width: 173.45px;
+    height: 53.98px;
+    padding: 16px;
 
-  width: 100%;
-  height: 64px;
-  border: 0;
-  cursor: pointer;
-  background: #3CDC8C;
-  border-radius: 20px;
-  color: #FFFFFF;
-  font-weight: 800;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #003770;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   transition: background-color 0.2s;
 }
@@ -170,5 +223,17 @@ form.create-orphanage-form button.confirm-button svg {
 }
 
 form.create-orphanage-form button.confirm-button:hover {
-  background: #36CF82;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 0px rgba(0, 0, 0, 0.25);}
+
+
+
+.app-sidebar {
+    display: none !important;
+}
+
+.hidder {
+    display: none !important;
 }

@@ -34,7 +34,7 @@ function OrphanegeMap() {
         <div id="page-map">
             <aside>
 
-            <Link to="/">                
+            <Link to="/dashboard">                
                 <img src={mapMarkerImg} alt="CNT" /> 
             </Link>
             
@@ -67,7 +67,7 @@ function OrphanegeMap() {
                     )
                 })}
             </Map>
-            <Link to="/orphanages/create" className="create-orphanege">
+            <Link to="/formulario" className="create-orphanege">
             <p>Iniciar</p>
             </Link>
         </div>

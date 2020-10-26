@@ -33,7 +33,7 @@ function Landing() {
 
                 </div>
 
-                <Link to="/cnt" className="enter-app">
+                <Link to="/dashboard" className="enter-app">
                 <p>Entrar</p>
                 </Link>
             </div>

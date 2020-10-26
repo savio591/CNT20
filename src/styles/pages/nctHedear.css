@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
 #page-map {
     width: 100vw;
     height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #create-itens {
@@ -53,19 +56,31 @@
     z-index: 10;
     right: 40px;
     bottom: 40px;
-    width: 64px;
-    height: 64px;
     position: absolute;
-    border-radius: 20px;
     background: #003770;
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#ffffff;
     transition: background-color 0.5s;
-
+    width: 173.45px;
+    height: 53.98px;
+    background: #003770;
+    border-radius: 50px;
 }
 #page-map .create-orphanege:hover {
     background: #3774B4;
+
+}
+
+#page-map .create-orphanege {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: #E5E5E5;
 
 }
 #page-map .map-popup .leaflet-popup-content-wrapper {

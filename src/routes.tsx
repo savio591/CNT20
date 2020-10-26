@@ -4,16 +4,18 @@ import landing from './pages/landing';
 import cntMaps from './pages/CNTMap';
 
 import Orphanage from './pages/Orphanage';
-import CreateOrphanage from './pages/CreateOrphanage';
+import CreateOrphanage from './pages/formulario';
+import formularioMarker from './pages/formularioMarker';
 
 function Routes() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={landing} />
-                <Route path="/cnt" component={cntMaps} />                
-                <Route path="/orphanages/create" component={CreateOrphanage} />
+                <Route path="/dashboard" component={cntMaps} />                
+                <Route path="/formulario" component={CreateOrphanage} />
                 <Route path="/orphanages/:id" component={Orphanage} />
+                <Route path="/formularioMarker" component={formularioMarker} />
 
             </Switch>
         </BrowserRouter>
