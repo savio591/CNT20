@@ -92,9 +92,9 @@ export default function CreateOrphanage() {
             <header>
                 <img src={imgg} alt="logo" />
                 <div className="header_textos">
-                    <h3>Olá, visitante!</h3>
+                    <h3 className="bigger">Olá, visitante!</h3>
                     <Link to="/" className="enter-app">
-                        <h3>Sair</h3>
+                        <h3 className="bigger">Sair</h3>
                     </Link>
                 </div>
 
@@ -102,7 +102,6 @@ export default function CreateOrphanage() {
             <main>
                 <div className="titulos">
                     <h1>Formulário de Pesquisa CNT  de Rodovias 2020</h1>
-                    <h2>Rota: 1 - Km1 -  Brusque/SC</h2>
                 </div>
                 <form onSubmit={handleSubmit} className="create-orphanage-form">
                     <fieldset>
@@ -133,7 +132,7 @@ export default function CreateOrphanage() {
                         </Map>
 
                         <div className="input-block">
-                            <label htmlFor="name">Nome</label>
+                            <label htmlFor="name">Local</label>
                             <input
                                 id="name"
                                 value={name}
@@ -141,7 +140,7 @@ export default function CreateOrphanage() {
                         </div>
 
                         <div className="input-block">
-                            <label htmlFor="about">Sobre <span>Máximo de 300 caracteres</span></label>
+                            <label htmlFor="about">Informações adicionais <span>Máximo de 300 caracteres</span></label>
                             <textarea
                                 id="name"
                                 maxLength={300}
