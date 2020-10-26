@@ -20,14 +20,14 @@
     font-family: 'Open Sans Condensed';
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     /* or 15px */
 
     align-items: center;
     text-align: center;
 
-    color: #FFA2A2;
+    color: #ffffff;
     }
 
 .header_textos {
@@ -80,6 +80,10 @@ line-height: 26px;
     margin: 16px;
 }
 
+
+.ct h2 {
+    padding: 8px;
+}
 .grids {
     display: flex;
     flex-direction: row;
@@ -201,4 +205,12 @@ align-content: center;
 justify-content: center;
     }
 
+}
+
+.input-block label {
+    color: white
+}
+
+.bigger {
+    font-size:32px !important;
 }
