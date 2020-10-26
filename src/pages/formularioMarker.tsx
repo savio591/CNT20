@@ -25,11 +25,12 @@ export default function CreateOrphanage() {
     return (
         <div id="page-formulario">
             <header>
-                <img src={imgg} alt="logo" />
+                <Link to="/formulario" className="enter-app">
+                <img src={imgg} alt="logo" /></Link>
                 <div className="header_textos">
                     <h3>Olá, visitante!</h3>
-                    <Link to="/" className="enter-app">
-                        <h3>Sair</h3>
+                    <Link to="/formulario" className="enter-app">
+                        <h3>Voltar</h3>
                     </Link>
                 </div>
 
@@ -197,7 +198,7 @@ export default function CreateOrphanage() {
                                     <img src={nao} alt='test' />
 
                                 </label>
-                            
+
                             </div>
                         </div>
                     </div>
@@ -298,7 +299,11 @@ export default function CreateOrphanage() {
                         </div>
                     </div>
                 </div>
-            <h2 className="info_saved">Todas as informações estão salvas automaticamente!</h2>
+                 <div className="ocorrencia">
+                    <p>Inserir uma ocorrência</p>
+                </div>
+                <h2 className="info_saved">Todas as informações estão salvas automaticamente!</h2>
+               
             </main>
         </div >
     );
